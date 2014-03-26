@@ -1,0 +1,54 @@
+{
+  "itemName" : "NoxSword2",
+  "level" : 1,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "For those who prefer their swords in their hands",
+  "shortdescription" : "TimeBlade",
+  "inspectionKind" : "sword",
+  "kind" : "Shortsword",
+
+  "image" : "NoxSword1.png",
+  "firePosition" : [15, 4.5],
+  "fireTime" : 0.7,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+
+  "colorOptions" : [
+    /* None */],
+
+  "primaryStances" : {
+    "projectileType" : "testswoosh3",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 500
+    },
+	
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -110,
+      "handPosition" : [-0.5, -20.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [0.0, -15],
+      "duration" : 0.2,
+      "statusEffects" : [
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -45,
+      "swordAngle" : -100,
+      "handPosition" : [-0.0, -25.5],
+      "duration" : 0.4,
+      "statusEffects" : [      ]
+    }
+  }
+}

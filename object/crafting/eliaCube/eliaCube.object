@@ -1,0 +1,37 @@
+{
+  "objectName" : "eliaCube",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/eliaCube.config",
+    "filter" : ["eliaCube" ]
+  },
+  "printable" : false,
+  "description" : "All HAIL THE MIGHTY HELI~ euh,... ELIACUBE",
+  "shortdescription" : "The eliacube",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "A fancy cube.",
+  "avianDescription" : "A shiny cube.",
+  "floranDescription" : "Floran once get in fight with table like this.",
+  "glitchDescription" : "Confused. This cube is familiar.",
+  "humanDescription" : "A CUBE! The revolution begins!",
+  "hylotlDescription" : "How strange. A mysterious cube.",
+
+  "inventoryIcon" : "eliaCubeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "eliaCube.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+       "frames" : 22,
+      "animationCycle" : 3.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

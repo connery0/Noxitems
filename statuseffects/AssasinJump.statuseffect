@@ -1,0 +1,11 @@
+{
+    "kind": "AssasinJump",
+    "primitives": [ 
+			{ "name": "jumpboost",			
+            "percentage": 25,
+            "mode": "max" } 
+			],
+	"tooltipLabel" : "Jump boost",
+    "tooltipAmountLabel" : "2",
+    "icon" : [ "/interface/tooltips/AssasinJump.png" ]
+}

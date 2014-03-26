@@ -1,0 +1,34 @@
+{
+  "itemName" : "noxintrolegs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Practical and stylish.",
+  "shortdescription" : "Xelor assassin pants",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : 10
+    },
+
+    {
+      "kind" : "Protection",
+      "amount" : 10
+    },
+
+	{
+      "kind" : "AssasinJump",
+	  "amount" : 2.8
+	}
+  ],
+
+  "colorOptions" : [
+    /* NONE */
+  ]
+}

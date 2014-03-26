@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "NoxSword1",
+    "count" : 1
+  },
+  "groups" : [ "eliaCube"]
+}

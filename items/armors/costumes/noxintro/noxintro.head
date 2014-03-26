@@ -1,0 +1,38 @@
+{
+  "itemName" : "noxintrohead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Cool during summer and intimidating during murder.",
+  "shortdescription" : "Xelor assassin helmet",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "heatprotection",
+      "amount" : 10
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 1,
+      "amount" : 10    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 20   },
+	 {
+		"kind" :"hawkeyes",
+		"amount":10}
+	 
+  ],
+
+  "colorOptions" : [
+    /* NONE */
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "kind": "Rush",
+    "primitives": [ 
+			{ "name": "runboost",
+            "percentage": 10,
+            "mode": "max" } 
+			],
+	"tooltipLabel" : "",
+    "tooltipAmountLabel" : "%amount%",
+    "icon" : [ "/interface/tooltips/runboost.png" ]
+}

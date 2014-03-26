@@ -1,0 +1,27 @@
+{
+  "itemName" : "wakfuPack",
+  "inventoryIcon" : "wakfuPack.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Common",
+  "description" : "Mabey you need more then bandages to hold all this raw energy",
+  "shortdescription" : "WakfuPack",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    { "kind" : "glow",
+      "amount" : 1.2,
+      "color" : [40, 144, 182]
+    },
+	{
+      "kind" : "WakfuPackRadiation",
+	  "amount" : 1
+	}
+  ],
+
+  "colorOptions" : [
+    /* NONE */
+  ]
+}
+ 
