@@ -1,11 +1,11 @@
 {
-  "itemName" : "noxOverload",
+  "itemName" : "noxintrohead2",
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "Raaaaaaaaaaaaaaagh!!!",
-  "shortdescription" : "Overloading xelor helm",
+  "description" : "Cool during summer and intimidating during murder. (also improves your eyesight)",
+  "shortdescription" : "Xelor assassin helmet",
   "inspectionKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -13,7 +13,11 @@
   "mask" : "mask.png",
 
   "statusEffects" : [
-    
+    {
+      "kind" : "heatprotection",
+      "amount" : 10
+    },
+
     {
       "kind" : "Protection",
       "level" : 1,
@@ -21,12 +25,11 @@
 
     {
       "kind" : "energyincrease",
-      "amount" : 500   },
-	  
-	 { "kind" : "glow",
-      "amount" : 0.5,
-      "color" : [43, 255, 255]
-		}
+      "amount" : 20   },
+	 {
+		"kind" :"hawkeyes",
+		"amount":2.0}
+	 
   ],
 
   "colorOptions" : [

@@ -3,7 +3,7 @@
     { "item" : "money", "count" : 1 }
   ],
   "output" : {
-    "item" : "noxintrohead",
+    "item" : "noxintrohead1",
     "count" : 1
   },
   "groups" : [ "eliaCube"]

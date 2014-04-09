@@ -1,10 +1,10 @@
 {
-  "itemName" : "noxintrohead",
+  "itemName" : "noxintrohead1",
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "Cool during summer and intimidating during murder.",
+  "description" : "Cool during summer and intimidating during murder. (also improves your eyesight)",
   "shortdescription" : "Xelor assassin helmet",
   "inspectionKind" : "armor",
 
@@ -28,7 +28,7 @@
       "amount" : 20   },
 	 {
 		"kind" :"hawkeyes",
-		"amount":10}
+		"amount":2.0}
 	 
   ],
 

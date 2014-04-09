@@ -3,8 +3,8 @@
     { "item" : "money", "count" : 1 }
   ],
   "output" : {
-    "item" : "magickunai",
+    "item" : "noxintrohead2",
     "count" : 1
   },
-  "groups" : [ "craftingtable", "armors", "all"]
+  "groups" : [ "eliaCube"]
 }
